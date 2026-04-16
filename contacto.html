@@ -1,21 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forsaken Shop | Contacto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="text-blue p-4 ">
-      <h1 class="text-2xl font-bold">Forsaken Shop</h1>
-     <h1 class="text-3xl font-bold underline pb-3">
-        CONTACTO
-    </h1>
-    <p>Email: fr.garaym@duocuc.cl</p>
-    <p class = "pb-5">Teléfono: +56 9 2189 0002</p>
-     <a class="mr-80"href="index.html">Inicio</a>
-     <a href="nosotros.html">Nosotros</a>  
+    <div class="site-shell">
+        <header class="site-header">
+            <div class="container header-row">
+                <a href="index.html" class="brand" aria-label="Inicio Forsaken Shop">
+                    <span class="brand-mark">FORSAKEN</span>
+                    <span class="brand-lite">SHOP</span>
+                </a>
+                <nav class="site-nav" aria-label="Navegacion principal">
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="contacto.html" class="active">Contacto</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="section">
+            <div class="container contact-layout">
+                <section class="contact-panel reveal">
+                    <span class="eyebrow">Conversemos</span>
+                    <h1 style="font-size: clamp(2rem, 4vw, 3rem); margin-top: 16px;">Ponte en contacto con el equipo</h1>
+                    <p>
+                        Estamos listos para ayudarte a modernizar procesos de venta e inventario. Responderemos tu consulta en menos de 24 horas.
+                    </p>
+
+                    <div class="contact-item">
+                        <div class="icon-badge">@</div>
+                        <div>
+                            <strong>Correo</strong>
+                            <span>fr.garaym@duocuc.cl</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="icon-badge">+</div>
+                        <div>
+                            <strong>Telefono</strong>
+                            <span>+56 9 2189 0002</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="form-panel reveal delay-1">
+                    <h2>Escribenos</h2>
+                    <form>
+                        <div class="field">
+                            <label for="nombre">Nombre completo</label>
+                            <input id="nombre" type="text" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="field">
+                            <label for="correo">Correo electronico</label>
+                            <input id="correo" type="email" name="correo" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div class="field">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Cuentanos que necesitas" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    </form>
+                </section>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 Forsaken Shop | Desarrollado por Franco Garay</p>
+        </footer>
+    </div>
 </body>
 </html>

@@ -1,22 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forsaken Shop | Inicio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="h-full">
-    <header class="text-blue p-4 ">
-      <h1 class="text-2xl font-bold">Forsaken Shop</h1>
-     <h1 class="text-3xl font-bold underline">
-      Bienvenidos a Forsaken Shop
-    </h1> 
-     <h2 class="pb-5 pt-2" >Forsaken Shop: Tecnología y control para tu estilo</h2>
-        <p class = "pb-8">En Forsaken Shop, nos especializamos en ofrecer una amplia gama de productos tecnológicos y de control para satisfacer tus necesidades. Desde dispositivos inteligentes hasta soluciones de automatización, tenemos todo lo que necesitas para mejorar tu vida diaria. Nuestro compromiso es brindarte productos de alta calidad y un servicio excepcional para que puedas disfrutar de la tecnología de manera fácil y conveniente.</p>
-     <a class="mr-80"href="nosotros.html">Nosotros</a>
-     <a href="contacto.html">Contacto </a>    
-    </header> 
+<body>
+    <div class="site-shell">
+        <header class="site-header">
+            <div class="container header-row">
+                <a href="index.html" class="brand" aria-label="Inicio Forsaken Shop">
+                    <span class="brand-mark">FORSAKEN</span>
+                    <span class="brand-lite">SHOP</span>
+                </a>
+                <nav class="site-nav" aria-label="Navegacion principal">
+                    <a href="index.html" class="active">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container reveal">
+                    <span class="eyebrow">Proyecto semestral 2026</span>
+                    <h1>Transformacion digital para retail, sin friccion operativa.</h1>
+                    <p>
+                        En Forsaken Shop diseñamos una solucion moderna para integrar inventario, ventas y decisiones de negocio en una plataforma escalable basada en microservicios y nube.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="nosotros.html" class="btn btn-primary">Explorar propuesta</a>
+                        <a href="contacto.html" class="btn btn-secondary">Hablar con el equipo</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <div class="section-title reveal delay-1">
+                        <h2>Capacidades principales</h2>
+                        <p>Un enfoque tecnico orientado a continuidad operativa, velocidad y crecimiento sustentable.</p>
+                    </div>
+                    <div class="grid-3">
+                        <article class="card reveal delay-1">
+                            <div class="icon-badge">01</div>
+                            <h3>Inventario en tiempo real</h3>
+                            <p>Control de stock sincronizado entre bodega, sala y canales digitales con trazabilidad completa.</p>
+                        </article>
+                        <article class="card reveal delay-2">
+                            <div class="icon-badge">02</div>
+                            <h3>Infraestructura cloud</h3>
+                            <p>Arquitectura desplegable en AWS con alta disponibilidad, escalado por demanda y monitoreo activo.</p>
+                        </article>
+                        <article class="card reveal delay-3">
+                            <div class="icon-badge">03</div>
+                            <h3>Base de microservicios</h3>
+                            <p>Servicios desacoplados en Java Spring Boot para acelerar entregas y simplificar mantenimiento.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 Forsaken Shop | Desarrollado por Franco Garay</p>
+        </footer>
+    </div>
 </body>
 </html>

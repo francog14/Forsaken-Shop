@@ -1,26 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forsaken Shop | Nosotros</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="text-blue p-4 ">
-      <h1 class="text-2xl font-bold">Forsaken Shop</h1>
-     <h1 class="text-3xl font-bold underline pb-3">
-        NOSOTROS
-    </h1>
-        <h2 class = "pb-2">Integrantes del equipo</h2>
-        <p class = "pb-5">Franco Garay</p>
-        <h2 class = "pb-2">Misión</h2>
-        <p class = "pb-5">Mejorar la organización de negocios mediante tecnología.</p>
-        <h2 class = "pb-2">Visión</h2>
-        <p class = "pb-5">Ser una solución utilizada por múltiples tiendas en el futuro.</p>
+    <div class="site-shell">
+        <header class="site-header">
+            <div class="container header-row">
+                <a href="index.html" class="brand" aria-label="Inicio Forsaken Shop">
+                    <span class="brand-mark">FORSAKEN</span>
+                    <span class="brand-lite">SHOP</span>
+                </a>
+                <nav class="site-nav" aria-label="Navegacion principal">
+                    <a href="index.html">Inicio</a>
+                    <a href="nosotros.html" class="active">Nosotros</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </header>
 
-     <a class="mr-20"href="index.html">Inicio</a>
-     <a href="contacto.html">Contacto</a>
+        <main>
+            <section class="section">
+                <div class="container">
+                    <div class="section-title reveal">
+                        <h2>Sobre el proyecto</h2>
+                        <p>
+                            Forsaken Shop nace para resolver los cuellos de botella del retail tradicional, reemplazando procesos manuales por una operacion conectada y medible.
+                        </p>
+                    </div>
+
+                    <div class="two-col">
+                        <article class="card reveal delay-1">
+                            <div class="icon-badge">M</div>
+                            <h3>Nuestra mision</h3>
+                            <p>
+                                Construir una plataforma de gestion retail robusta, enfocada en automatizar inventario, ventas y soporte comercial para mejorar productividad y experiencia del cliente.
+                            </p>
+                        </article>
+
+                        <article class="card reveal delay-2">
+                            <div class="icon-badge">V</div>
+                            <h3>Nuestra vision</h3>
+                            <p>
+                                Posicionarnos como referente de digitalizacion para tiendas de escala media, utilizando microservicios y cloud computing como motor de crecimiento sostenible.
+                            </p>
+                        </article>
+                    </div>
+
+                    <p class="highlight reveal delay-3">
+                        Solucion desarrollada por estudiantes de Duoc UC, orientada a problemas reales de continuidad operativa, trazabilidad y decision basada en datos.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 Forsaken Shop | Desarrollado por Franco Garay</p>
+        </footer>
+    </div>
 </body>
 </html>
