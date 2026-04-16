@@ -1,0 +1,22 @@
+a{
+    color: rgb(0, 4, 255); 
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+html {    
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+    font-family: Arial, sans-serif;
+    color: blue;
+
+}
+
